@@ -97,7 +97,7 @@ flutter run
 ## 👨‍💻 Author
 
 Developed by Shree Hari Sugith M  
-Engineering Student @ P.A. College of Engineering and Technology | Flutter Developer 🚀
+Engineering Student @ P.A. College of Engineering and Technology | Fluter Developer 🚀
 
 ---
 
