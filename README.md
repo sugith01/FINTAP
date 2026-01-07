@@ -21,34 +21,31 @@ The game challenges players to tap as fast as possible within a limited time, he
 
 | Technology | Purpose |
 |-----------|---------|
-| Flutter | Cross-platform app development framework |
-| Dart | Programming language for application logic |
+| Flutter | Cross-platform mobile app development |
+| Dart | Game logic and state management |
 | Material UI | UI components and theming |
 
 ---
 
-## 🎨 Launcher Icon
+## 🎨 App Design
 
-- Designed and implemented a custom launcher icon for the calculator app  
-- Enhances app visual identity and recognition  
-- Icon appears on:
-  - Home screen  
-  - App drawer  
-  - Recent apps screen  
-- Integrated using Flutter launcher icon configuration  
+- Playful and minimal UI  
+- Flat color design for better focus  
+- Optimized for one-hand gameplay  
+- Smooth animations and visual feedback  
 
 ---
 
-## 🧠 Logic Overview
+## 🧠 Game Logic Overview
 
-- User input is stored as a string  
-- First operand is stored before selecting an operator  
-- Selected operator is stored separately  
-- On pressing `=`, values are parsed into double  
-- Calculation is performed based on the selected operator  
-- UI updates dynamically using setState()  
+- User taps are captured using gesture detection  
+- Each valid tap increases the score  
+- Game runs for a fixed duration using a timer  
+- High score is stored locally  
+- UI updates dynamically using `setState()`  
 
 ---
+
 
 ## 📂 Project Structure
 
