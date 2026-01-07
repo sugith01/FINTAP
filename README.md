@@ -73,3 +73,55 @@ FINTAP/
 ├── pubspec.yaml              /* Dependencies & assets config */
 ├── README.md                 /* Project documentation */
 └── android/ ios/ web/        /* Platform-specific files */
+
+## 🚀 How to Run the Project
+
+### Prerequisites
+- Flutter SDK installed on your system  
+- Android Studio or VS Code  
+- Android emulator or a physical device  
+
+### Steps
+
+```bash
+# Clone the repository
+git clone https://github.com/sugith01/FINTAP.git
+
+# Navigate into the project directory
+cd FINTAP
+
+# Install dependencies
+flutter pub get
+
+# Run the application
+flutter run
+
+## 🎯 Learning Outcomes
+
+- Gained hands-on experience building an interactive game using Flutter  
+- Learned to handle rapid user input and gesture detection  
+- Implemented real-time state updates using Stateful Widgets  
+- Designed responsive UI layouts for different screen sizes  
+- Applied Dart logic for scoring and game flow management  
+- Improved performance optimization for tap-heavy applications  
+## 👨‍💻 Author
+
+Developed by Shree Hari Sugith M  
+Engineering Student @ P.A. College of Engineering and Technology | Flutter Developer 🚀
+
+---
+
+## 🔗 Connect & Support
+
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-M.%20Shree%20Hari%20Sugith-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/m-shree-hari-sugith-650059320/)
+
+[![GitHub](https://img.shields.io/badge/GitHub-sugith01-black?style=flat&logo=github)](https://github.com/sugith01)
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, please star the repository and share it with others.  
+Contributions, pull requests, and feedback are always welcome.
+
