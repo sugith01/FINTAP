@@ -1,23 +1,19 @@
-# 🧮 Flutter Calculator App
+# 👆 FINTAP – Flutter Finger Tapping Game
 
-A simple and interactive Calculator App developed using Flutter.  
-This project showcases basic UI design, state management, and arithmetic operations in Flutter.
+**FINTAP** is a fast-paced and addictive finger tapping game developed using **Flutter**.  
+The game challenges players to tap as fast as possible within a limited time, helping improve reflexes, speed, and finger coordination through engaging gameplay.
 
 ---
 
 ## 📌 Features
 
-- Clean and minimal calculator UI  
-- Supports basic arithmetic operations:
-  - Addition (+)
-  - Subtraction (−)
-  - Multiplication (×)
-  - Division (÷)
-- Decimal number support  
-- Clear button to reset calculations  
-- Responsive layout using MediaQuery  
-- Button interactions handled using InkWell for smooth tap responses  
-- Custom launcher icon for the app  
+- Clean and colorful game UI  
+- Fast and responsive finger tapping gameplay  
+- Real-time score updates  
+- High-score tracking for replay motivation  
+- Smooth tap detection for accurate counting  
+- Responsive layout for different screen sizes  
+- Lightweight and performance-optimized  
 
 ---
 
