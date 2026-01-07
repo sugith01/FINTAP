@@ -49,8 +49,30 @@ The game challenges players to tap as fast as possible within a limited time, he
 
 ## 📂 Project Structure
 
-lib/
- └── main.dart   # Core Flutter code for the Calculator
+```css
+FINTAP/
+│
+├── lib/
+│   ├── main.dart            /* App entry point */
+│   │
+│   ├── screens/
+│   │   ├── home_screen.dart   /* Main game screen */
+│   │   └── result_screen.dart /* Score/result display */
+│   │
+│   ├── widgets/
+│   │   ├── tap_button.dart    /* Tap interaction widget */
+│   │   └── score_board.dart   /* Score UI component */
+│   │
+│   └── logic/
+│       ├── game_logic.dart    /* Game rules & scoring */
+│
+├── assets/
+│   ├── images/               /* App images & icons */
+│  
+│
+├── pubspec.yaml              /* Dependencies & assets config */
+├── README.md                 /* Project documentation */
+└── android/ ios/ web/        /* Platform-specific files */
 
 ---
 
@@ -63,12 +85,12 @@ flutter run
 
 ## 🎯 Learning Outcomes
 
-- Building UI with Flutter Material Design  
-- Managing state using Stateful Widgets  
-- Handling user interactions using InkWell  
-- Implementing arithmetic logic  
-- Creating a responsive layout  
-- Adding a custom launcher icon  
+- Gained hands-on experience building an interactive game using Flutter  
+- Learned to handle rapid user input and gesture detection  
+- Implemented real-time state updates using Stateful Widgets  
+- Designed responsive UI layouts for different screen sizes  
+- Applied Dart logic for scoring and game flow management  
+- Improved performance optimization for tap-heavy applications
 
 ---
 
